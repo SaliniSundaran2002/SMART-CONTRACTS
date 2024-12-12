@@ -6,19 +6,44 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
 						"internalType": "string",
-						"name": "_title",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_sem",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_dept",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_price",
+						"name": "_CGPA",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_rollNo",
 						"type": "uint256"
 					}
 				],
-				"name": "addBooks",
+				"name": "setStudentDetails",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -31,40 +56,31 @@
 						"type": "uint256"
 					}
 				],
-				"name": "books",
+				"name": "studData",
 				"outputs": [
 					{
 						"internalType": "string",
-						"name": "title",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "sem",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "dept",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "price",
+						"name": "CGPA",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "index",
-						"type": "uint256"
-					}
-				],
-				"name": "getBooks",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "rollNo",
 						"type": "uint256"
 					}
 				],
@@ -85,7 +101,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SMART-CONTRACTS-1733812289486/MyBookArray.sol": "MyBookArray"
+			"SMART-CONTRACTS-1733812289486/SMS.sol": "SMS"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -99,12 +115,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"SMART-CONTRACTS-1733812289486/MyBookArray.sol": {
-			"keccak256": "0x06800d6c5c6a6a620e8592b5c217ad4a14ce4dad1f498ace0e1d50ab36734a71",
+		"SMART-CONTRACTS-1733812289486/SMS.sol": {
+			"keccak256": "0x587a5ec63e0dbd56975328a9bc01265eb5869855b185faa2b2610877af4162d0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://18c87dddf2670dee1258636a8b11e270ad03baf5f66ef180ccf31e2b040faeb6",
-				"dweb:/ipfs/QmNbRBUX3bQGuNLmxRJzxnS6jgsvPzWK6bsn4588wqfkwv"
+				"bzz-raw://8eb509286d74fc780064db1889970e43cfd7fbf8d97c635c709c47d23ec0ae95",
+				"dweb:/ipfs/QmPTVxduDtWwwcz5zUvJDoGRxHHjnM3HhXbhTkxv7QwW3N"
 			]
 		}
 	},
