@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "setPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SMART-CONTRACTS-1733812289486/Person.sol": "Person"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SMART-CONTRACTS-1733812289486/Person.sol": {
+			"keccak256": "0xadee345690f614d0e0e6760609aceebfc08cd1b4143117ab3ad2748360785d6a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dd99659f7aac4a8969ab7f7e9b8a03aedeabcd7edcbb12ea4878b5b53f005fa4",
+				"dweb:/ipfs/QmXzBDqN4N7c7PPcj2Sr7j5jNzycunKLXomVoLrtafh5vD"
+			]
+		}
+	},
+	"version": 1
+}

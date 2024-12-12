@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int16",
+						"name": "_value",
+						"type": "int16"
+					}
+				],
+				"name": "checkSign",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "findLargest",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "_digit",
+						"type": "uint16"
+					}
+				],
+				"name": "getDigit",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "_firstNo",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_secondNo",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_thirdNo",
+						"type": "uint16"
+					}
+				],
+				"name": "inputNumbers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SMART-CONTRACTS-1733812289486/LargestNumber.sol": "LargestNumber"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SMART-CONTRACTS-1733812289486/LargestNumber.sol": {
+			"keccak256": "0xa727d44e301d01ade7be4b8ae1be2388996ef0e6e4d618d58f594ef606e70d33",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b77837ead0b929a31054e3f6111f8c4f610a22ae143e284003f72a0842bcc16",
+				"dweb:/ipfs/QmXPQnm2fvQ66P9WYRBCxsVqzzHzsjS1t5B3xRywyfZhBv"
+			]
+		}
+	},
+	"version": 1
+}

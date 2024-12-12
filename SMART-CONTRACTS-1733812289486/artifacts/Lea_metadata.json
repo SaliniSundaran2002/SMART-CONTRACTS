@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getLargestNumber",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SMART-CONTRACTS-1733812289486/LeapYear.sol": "Lea"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SMART-CONTRACTS-1733812289486/LeapYear.sol": {
+			"keccak256": "0x9077eb8f94f8e7518f74f5d8447161bfa19e387eb3c40783a28759665ed0a889",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f963aa75a2ae9a5232515962fa198bf14e2e274647cae50a70a2e522987ba611",
+				"dweb:/ipfs/QmPnFaArMpy1Wbap8cD7M95JNamhiYYvCRVJ49w7YhLi6q"
+			]
+		}
+	},
+	"version": 1
+}

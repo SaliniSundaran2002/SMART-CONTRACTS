@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "findLeapyear",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "_year",
+						"type": "uint16"
+					}
+				],
+				"name": "inputYear",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SMART-CONTRACTS-1733812289486/LeapYear.sol": "LeapYear"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SMART-CONTRACTS-1733812289486/LeapYear.sol": {
+			"keccak256": "0xf5c62fb6d5930e3a70af3de88d333176269b7e922c07d591737c679d4252d84d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c3f47551203f763b0e16bcbf5fec602f47d86cb46c14282008b1b5141ca196f5",
+				"dweb:/ipfs/Qma8s31fjiJnbxFbsnhUvx29SGqwqjEp597VwJqyEnUDow"
+			]
+		}
+	},
+	"version": 1
+}

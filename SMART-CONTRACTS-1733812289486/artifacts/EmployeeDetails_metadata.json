@@ -1,0 +1,133 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addSalary",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "eval",
+						"type": "uint256"
+					}
+				],
+				"name": "ethToWei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getEmployees",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_department",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_designation",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_salary",
+						"type": "uint16"
+					}
+				],
+				"name": "setEmployees",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SMART-CONTRACTS-1733812289486/EmployeeDetails.sol": "EmployeeDetails"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SMART-CONTRACTS-1733812289486/EmployeeDetails.sol": {
+			"keccak256": "0x52fc4f23cc81f7b8ab9757d40db4a847966e72d56d3bcd33f55eccbb9b5eb09a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://de43a1902c146c7247ad2be93210213b1f061c93b07d73109e7ee810d2a89945",
+				"dweb:/ipfs/QmXZo2HBEkU6fopYo3yd3XsfRsKGcSHSaHzmCQwrAsYwfj"
+			]
+		}
+	},
+	"version": 1
+}
